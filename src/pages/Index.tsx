@@ -29,7 +29,7 @@ const Index = () => {
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            MK Realty
+            MahaKshetra Realty
           </h1>
           <p className="text-xl md:text-2xl mb-8">
             Trusted Real Estate Projects in Hyderabad & Telangana
