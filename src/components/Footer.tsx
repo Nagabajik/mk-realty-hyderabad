@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <img src={logo} alt="MK Realty" className="h-12 w-auto mb-4 brightness-0 invert" />
+            <img src={logo} alt="MK Realty" className="h-12 w-auto mb-4" />
             <p className="text-sm text-primary-foreground/80 mb-4">
               MK Realty – Site, Apartment, Villa, Agricultural & Commercial Real Estate Projects in Hyderabad & Telangana.
             </p>
