@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Linkedin, Youtube, Mail, Phone, MapPin } from 'lucide-react';
-import logo from '@/assets/mahakshetra-logo.png';
+import logo from '@/assets/mk-logo.png';
 
 const Footer = () => {
   return (
