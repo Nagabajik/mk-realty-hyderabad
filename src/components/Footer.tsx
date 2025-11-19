@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Linkedin, Youtube, Mail, Phone, MapPin } from 'lucide-react';
-import logo from '@/assets/mk-logo.png';
+import logo from '@/assets/mahakshetra-logo.png';
 
 const Footer = () => {
   return (
@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <img src={logo} alt="MK Realty" className="h-12 w-auto mb-4" />
+            <img src={logo} alt="MahaKshetra Realty" className="h-12 w-auto mb-4" />
             <p className="text-sm text-primary-foreground/80 mb-4">
-              MK Realty – Site, Apartment, Villa, Agricultural & Commercial Real Estate Projects in Hyderabad & Telangana.
+              MahaKshetra Realty – Site, Apartment, Villa, Agricultural & Commercial Real Estate Projects in Hyderabad & Telangana.
             </p>
             <div className="flex space-x-4">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">

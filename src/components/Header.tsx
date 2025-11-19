@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import logo from '@/assets/mk-logo.png';
+import logo from '@/assets/mahakshetra-logo.png';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link to="/" className="flex items-center space-x-2">
-          <img src={logo} alt="MK Realty" className="h-10 w-auto" />
+          <img src={logo} alt="MahaKshetra Realty" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}
